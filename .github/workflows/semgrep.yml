@@ -19,7 +19,7 @@ on:
 
 jobs: 
 
-  semgrep_actions:                # Job ID: descriptive name for your job 
+  semgrep_actions:                # Job ID:descriptive name for your job
 
     permissions: write-all        # Needed to upload a SARIF file, a standard format to report static scan results 
 
@@ -27,7 +27,7 @@ jobs:
 
     runs-on: ubuntu-latest       # Options: ubuntu-latest | windows-latest | macos-latest 
 
-    # Hint: Use Linux type OS for lightweight and fast execution 
+    # Hint: Use Linux type OS for lightweight and fast execution
 
     # run job inside a container 
 
