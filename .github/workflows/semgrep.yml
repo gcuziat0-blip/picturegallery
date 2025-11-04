@@ -34,11 +34,7 @@ jobs:
 
       - name: Run semgrep analysis (blocking mode) 
 
-        run: semgrep scan --sarif --sarif-output=semgrep.sarif --error 
-
-        #semgrep scan --sarif --sarif-output=semgrep.sarif || true (non blocking mode) 
-
- 
+        run: semgrep scan --sarif --sarif-output=semgrep.sarif --error  
 
       - name: Upload SARIF file to GitHub 
 
